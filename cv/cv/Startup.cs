@@ -25,21 +25,21 @@ namespace cv
             {
                 app.UseDeveloperExceptionPage();
             }
+
             app.UseHttpsRedirection();
 
             app.UseDefaultFiles();
             app.UseStaticFiles(); //A sorrend fontos!
 
-            
             app.UseRouting();
 
-          //  app.UseEndpoints(endpoints =>
-           // {
+            //app.UseEndpoints(endpoints =>
+            //{
             //    endpoints.MapGet("/", async context =>
-           //     {
-                   // await context.Response.WriteAsync("Hello World!");
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
             //    });
-           // });
+            //});
         }
     }
 }
